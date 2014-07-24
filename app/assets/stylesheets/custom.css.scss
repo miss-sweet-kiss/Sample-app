@@ -15,21 +15,6 @@ body {
   padding-top: 60px;
 }
 
-.users {
-  list-style: none;
-  margin: 0;
-}
-
-  .users li {
-    overflow: auto;
-    padding: 10px 0;
-    border-top: 1px solid #555;
-  }
-
-    .users li:last-child {
-      border-bottom: 1px solid #555;
-    }
-
 section {
   overflow: auto;
 }
@@ -184,4 +169,15 @@ input {
 
 /* Users index */
 
-
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+    &:last-child {
+      border-bottom: 1px solid #555;
+    }
+  }
+}
