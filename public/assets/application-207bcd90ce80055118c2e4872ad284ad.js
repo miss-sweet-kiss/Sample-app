@@ -9,7 +9,7 @@
  * Released under the MIT license
  * http://jquery.org/license
  *
- * Date: 2013-07-03T13:48Z
+ * Date: 2013-07-03T13:48Z,m.m.m
  */
 
 (function( window, undefined ) {
