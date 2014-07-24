@@ -7,7 +7,7 @@ gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
 	gem 'sqlite3', '1.3.8'
-	gem 'rspec-rails', '2.13.1'
+	gem "rspec-rails", '~> 2.14.0.rc1'
 end
 
 group :test do
@@ -25,6 +25,12 @@ gem 'jquery-rails','3.0.4'
 gem 'turbolinks','1.1.1'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-turbolinks'
+gem 'pry'
+gem 'pry-remote'
+gem 'pry-nav'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :doc do
 	gem 'sdoc', '~> 0.4.0', require: false
