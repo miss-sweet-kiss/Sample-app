@@ -11,13 +11,13 @@ group :development, :test do
 end
 
 group :test do
-  	gem 'minitest'
-  	gem 'shoulda-matchers'
-	gem 'selenium-webdriver', '2.35.1'
 	gem 'capybara', '2.1.0'
 	gem 'factory_girl_rails', '4.2.1'
 end
 
+gem 'minitest'
+gem 'shoulda-matchers'
+gem 'selenium-webdriver', '2.35.1'
 gem 'sass-rails', '~> 4.0.2'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
