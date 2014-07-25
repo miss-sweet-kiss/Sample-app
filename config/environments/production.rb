@@ -11,7 +11,7 @@ Rails.application.configure do
   config.eager_load = true
 
   # Full error reports are disabled and caching is turned on.
-  config.consider_all_requests_local       = false
+  config.consider_all_requests_local       = true
   config.action_controller.perform_caching = true
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
@@ -87,7 +87,7 @@ Rails.application.configure do
       :port                 =>  587,
       :user_name            => 'tiptip3000@gmail.com',
       :password             => 'asdfasdfasdf',
-      :domain               => 'some.org',
+      :domain               => 'desolate-castle-8582.herokuapp.com',
       :authentication       => :plain,
       #:openssl_verify_mode  => 'none',
       :enable_starttls_auto => true
