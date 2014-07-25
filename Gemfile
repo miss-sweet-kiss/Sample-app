@@ -31,6 +31,7 @@ gem 'pry-nav'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'devise'
 
 group :doc do
 	gem 'sdoc', '~> 0.4.0', require: false

@@ -1,4 +1,9 @@
 class User < ActiveRecord::Base
+  devise :confirmable,
+         :recoverable,
+         :lockable,
+         :registerable
+
 	before_save { email.downcase! }
 	before_create :create_remember_token
 	
