@@ -80,4 +80,16 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   config.action_mailer.default_url_options = { host: 'desolate-castle-8582.herokuapp.com', port: 5000 }
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 =>  587,
+      :user_name            => 'tiptip3000@gmail.com',
+      :password             => 'asdfasdfasdf',
+      :domain               => 'some.org',
+      :authentication       => :plain,
+      #:openssl_verify_mode  => 'none',
+      :enable_starttls_auto => true
+  }
 end
